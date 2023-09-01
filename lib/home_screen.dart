@@ -32,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
+        centerTitle: true,
         title: const Text('Api Course',
           style: TextStyle(
           fontWeight: FontWeight.bold,),
