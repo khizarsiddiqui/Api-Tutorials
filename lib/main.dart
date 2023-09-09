@@ -5,6 +5,7 @@ import 'example_two.dart';
 import 'example_three.dart';
 import 'example_four.dart';
 import 'example_five.dart';
+import 'signup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,10 +20,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Api Tutorial',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlueAccent),
         useMaterial3: true,
       ),
-      home: const ExampleFive(),
+      home: const SignUpScreen(),
     );
   }
 }
